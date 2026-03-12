@@ -14,12 +14,27 @@
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
+				<Linker>
+					<Add library="raylib" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="3d_picker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input_mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="viewport_scaling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="window.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

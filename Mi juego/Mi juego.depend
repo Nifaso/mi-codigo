@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1773325656 source:c:\comunidad\al252377\downloads\mi juego\main.c
+	<stdio.h>
+	<stdlib.h>
+	"raylib.h"
+
+1773326243 source:c:\comunidad\al252377\downloads\mi juego\input_mouse.c
+	"raylib.h"
+
+1773326291 source:c:\comunidad\al252377\downloads\mi juego\window.c
+	<stdio.h>
+	<stdlib.h>
+	"raylib.h"
+
+1773326365 source:c:\comunidad\al252377\downloads\mi juego\3d_picker.c
+	"raylib.h"
+
